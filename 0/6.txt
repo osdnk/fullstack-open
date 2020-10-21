@@ -1,0 +1,11 @@
+BROWSER->SERVER: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa payload: { content }
+note over SERVER:
+new note is stored
+end node
+
+SERVER-->BROWSER: JSON {"message":"note created"}
+
+note over BROWSER:
+BROWSER executes js-code which adds a new element to list
+
+end note
