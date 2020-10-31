@@ -11,21 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-.message {
-  width: 300px;
-  padding: 24px;
-  margin: 8px;
-  background-color: #b0a8a8;
-  border-radius: 10px;
-  border-width: 2px;
-}
-
-.positive {
-  color: #01ff70;
-}
-
-.negative {
-  color: #8d103c;
-}
