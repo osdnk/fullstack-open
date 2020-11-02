@@ -54,7 +54,7 @@ const App = () => {
   const [ filter, setFilter ] = useState('');
   const [ newName, setNewName ] = useState('')
   const [ newNumber, setNewNumber ] = useState('');
-  const [ message, setMessage ] = useState({ massage: '', positive: true });
+  const [ message, setMessage ] = useState({ message: '', positive: true });
 
   const onNameChange = (event) => {
     setNewName(event.target.value);
