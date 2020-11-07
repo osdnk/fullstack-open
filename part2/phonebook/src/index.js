@@ -87,7 +87,9 @@ const App = () => {
     create(person).then((data) => {
       setMessage({ message: "Number added", positive: true })
       setPersons(prev => [...prev, data])
-    }).catch(() => alert("Error"))
+    }).catch((error) => {
+      alert(`Error ${error.response.data.error}`)
+    })
     setNewName("")
     setNewNumber("")
   }
